@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="A&D Curtains and Catering logo">
+<defs>
+ <linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#fff0a3"/><stop offset=".3" stop-color="#d99a18"/><stop offset=".58" stop-color="#ffe27a"/><stop offset="1" stop-color="#9b5c00"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="800" height="800" rx="400" fill="#050505"/>
+<circle cx="400" cy="400" r="360" fill="none" stroke="url(#g)" stroke-width="12" filter="url(#glow)"/>
+<g fill="url(#g)" stroke="url(#g)">
+ <path d="M110 135 Q205 60 315 105 Q280 185 175 250 Q130 280 105 245 Q150 210 110 135Z"/>
+ <path d="M690 135 Q595 60 485 105 Q520 185 625 250 Q670 280 695 245 Q650 210 690 135Z"/>
+ <path d="M110 135 Q145 245 145 335 Q145 390 110 445 L160 420 Q205 300 175 250 Q130 280 105 245Z"/>
+ <path d="M690 135 Q655 245 655 335 Q655 390 690 445 L640 420 Q595 300 625 250 Q670 280 695 245Z"/>
+</g>
+<g fill="none" stroke="url(#g)" stroke-width="10" stroke-linecap="round">
+ <path d="M285 118 Q400 65 515 118"/>
+ <path d="M150 230 Q195 250 225 235"/>
+ <path d="M650 230 Q605 250 575 235"/>
+</g>
+<text x="400" y="340" text-anchor="middle" font-family="Georgia,serif" font-size="190" font-weight="700" fill="url(#g)">A&amp;D</text>
+<g fill="none" stroke="url(#g)" stroke-width="10">
+ <path d="M310 175 Q330 125 370 145 Q400 105 430 145 Q470 125 490 175 L480 210 Q400 180 320 210Z"/>
+ <path d="M350 210 L350 245 Q400 225 450 245 L450 210"/>
+</g>
+<g fill="url(#g)" stroke="url(#g)" stroke-width="6">
+ <path d="M230 430 l55 75 18 -12 -54 -80z"/>
+ <path d="M570 430 l-55 75 -18 -12 54 -80z"/>
+ <path d="M210 415 l-20 -28 10 -7 22 25 5 -35 10 2 -5 38 27 -25 7 10 -30 25z"/>
+ <ellipse cx="595" cy="405" rx="18" ry="52" transform="rotate(35 595 405)"/>
+ <path d="M330 450 Q400 415 470 450 L465 500 L335 500Z"/>
+ <path d="M315 500 H485 Q400 525 315 500Z"/>
+ <path d="M325 450 Q330 400 400 390 Q470 400 475 450 L455 440 Q445 415 400 410 Q355 415 345 440Z"/>
+</g>
+<text x="400" y="585" text-anchor="middle" font-family="Georgia,serif" font-size="42" font-style="italic" fill="url(#g)">Curtains and Catering</text>
+<path d="M205 620 H350 M450 620 H595" stroke="url(#g)" stroke-width="5"/>
+<path d="M400 603 l12 22 -12 25 -12 -25z" fill="url(#g)"/>
+</svg>
