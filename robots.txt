@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rashmikabandara1111-coder.github.io/ad-curtains-catering/sitemap.xml
